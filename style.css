@@ -66,7 +66,7 @@
 
 .b-line{
     border-bottom:1px solid #cecece;
-    width: 98vw;
+    width: 97vw;
     height: 5px;
     /* display: flex; */
     /* justify-content: center; */
@@ -96,12 +96,32 @@
 }
 
 .hero-section img{
-    width: 99vw;
+    width: 98.9vw;
     height: 70vh;
+}
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 17vw;
+    text-align: left;
+    margin: 15px 0px;
+    /* padding: 5px; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .product img{
     width: 200px;
     height: 250px;
-    
+    border-radius: 25px;
 }

@@ -126,10 +126,17 @@
     border-radius: 25px;
 }
 
-.product p{
+.product .original-price{
     color: gray;
     font-size: 14px;
     margin: 10px 0px;
+    color: red;
+}
+
+.product .first-line{
+    color: gray;
+    font-size: 16px;
+    margin: 8px 0px;
 }
 
 .product h4{
